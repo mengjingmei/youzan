@@ -81,9 +81,6 @@ video {
 div {
   box-sizing: border-box;
 }
-html {
-  font-size: 6.6px;
-}
 body {
   line-height: 1;
 }
@@ -97,6 +94,10 @@ a {
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+  text-decoration: none;
+}
+a {
+  color: #000;
 }
 a:hover,
 a:focus {
