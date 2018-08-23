@@ -1,0 +1,54 @@
+@import "config.css";
+#youzan {
+  max-width: 100%;
+  min-width: 1100px;
+  height: auto;
+  overflow: auto;
+}
+#youzan > div {
+  padding: 0 81px;
+  color: green;
+  border: 1px red solid;
+}
+#youzan .header-wrapper {
+  width: 100%;
+  height: 70px;
+}
+#youzan .banner-wrapper {
+  width: 100%;
+  height: 420px;
+  background-image: url('../images/topbanner2@2x.jpg');
+}
+#youzan .product-wrapper {
+  width: 100%;
+  height: 850px;
+  display: flex;
+}
+#youzan .product-wrapper .product-mall,
+#youzan .product-wrapper .product-store {
+  flex: 1;
+}
+#youzan .menu-wrapper {
+  height: 941px;
+}
+#youzan .client-wrapper {
+  height: 956px;
+}
+#youzan .support-wrapper {
+  height: 453px;
+}
+#youzan .about-wrapper {
+  height: 918px;
+}
+#youzan .about-wrapper .about-success,
+#youzan .about-wrapper .about-service,
+#youzan .about-wrapper .about-partner {
+  height: 306px;
+}
+#youzan .register-wrapper {
+  height: 235px;
+}
+#youzan .footer-wrapper {
+  height: 622px;
+}
+/*# sourceMappingURL=index.css.map */
