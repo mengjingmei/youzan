@@ -17,63 +17,79 @@
     <!--头部导航栏-->
     <div class="header-wrapper">
         <div class="header-logo">
-            <a href="#"><img src="images/logo.png" alt=""></a>
-            <a href="#"><span>香港上市代码</span><span>08083.HK</span></a>
+            <a class="logo" href="#"><img src="images/logo.png" alt=""></a>
+            <a class="code" href="#"><p>香港上市代码</p><p>08083.HK</p></a>
         </div>
-        <ul class="header-nav clearfix">
-            <li class="home-page fl">首页</li>
-            <li class="service fl">商家服务<span></span></li>
-            <li class="consumer fl">消费者<span></span></li>
-            <li class="cooperation fl">聚道合作</li>
-            <li class="open fl">开放平台<span></span></li>
-            <li class="other fl">更多服务<span></span></li>
-        </ul>
-        <div class="header-login">登陆</div>
-        <div class="header-register">注册</div>
+        <div class="header-nav">
+            <ul class="nav-list clearfix">
+                <li class="home-page fl current">首页</li>
+                <li class="service fl">商家服务<span></span></li>
+                <li class="consumer fl">消费者<span></span></li>
+                <li class="cooperation fl">聚道合作</li>
+                <li class="open fl">开放平台<span></span></li>
+                <li class="other fl">更多服务<span></span></li>
+            </ul>
+        </div>
+        <div class="header-btn">
+            <div class="btn-login" style="display: inline-block">登陆</div>
+            <div class="btn-register" style="display: inline-block">注册</div>
+        </div>
     </div>
     <!--轮播图片横幅-->
     <div class="banner-wrapper">
         <ul class="banner-list clearfix">
-            <li class="fl" style="background-image: url(images/topbanner4@2x.jpg);">
-                <h3>安全保障高于一切</h3>
-                <p>有赞，为你的生意保驾护航</p>
-                <a href="">了解详情</a>
+            <li class="banner4 fl" style="background-image: url(images/topbanner4@2x.jpg);">
+                <div class="content">
+                    <p class="title">安全保障高于一切</p>
+                    <p class="desc">有赞，为你的生意保驾护航</p>
+                    <a class="more" href="">了解详情</a>
+                </div>
                 <img src="images/topbanner_dragon.png" alt="">
             </li>
-            <li class="fl" style="background-image: url(images/topbanner1@2x.jpg);">
-                <h3>做生意，用有赞</h3>
-                <p>帮助每一位重视产品和服务的商家成功</p>
-                <a href="">免费试用</a>
+            <li class="banner1 fl" style="background-image: url(images/topbanner1@2x.jpg);">
+                <div class="content">
+                    <p class="title">做生意，用有赞</p>
+                    <p class="desc">帮助每一位重视产品和服务的商家成功</p>
+                    <a class="more" href="">免费试用</a>
+                </div>
             </li>
-            <li class="fl" style="background-image: url(images/topbanner2@2x.jpg);">
-                <h3>一键生成小程序</h3>
-                <p>无需开发，一键生成</p>
-                <a href="">了解更多</a>
+            <li class="banner2 fl" style="background-image: url(images/topbanner2@2x.jpg);">
+                <div class="content">
+                    <p class="title">一键生成小程序</p>
+                    <p class="desc">无需开发，一键生成</p>
+                    <a class="more" href="">了解更多</a>
+                </div>
             </li>
-            <li class="fl" style="background-image: url(images/topbanner3@2x.png);">
-                <h3>有赞精选，30万商家的明智选择</h3>
-                <p>加入即可单日共享百万流量</p>
-                了解更多</a>
+            <li class="banner3 fl" style="background-image: url(images/topbanner3@2x.png);">
+                <div class="content">
+                    <p class="title">有赞精选，30万商家的明智选择</p>
+                    <p class="desc">加入即可单日共享百万流量</p>
+                    <a class="more" href="">了解更多</a>
+                </div>
             </li>
-            <li class="fl" style="background-image: url(images/topbanner4@2x.jpg);">
-                <h3>安全保障高于一切</h3>
-                <p>有赞，为你的生意保驾护航</p>
-                <a href="">了解详情</a>
+            <li class="banner4 fl" style="background-image: url(images/topbanner4@2x.jpg);">
+                <div class="content">
+                    <p class="title">安全保障高于一切</p>
+                    <p class="desc">有赞，为你的生意保驾护航</p>
+                    <a class="more" href="">了解详情</a>
+                </div>
                 <img src="images/topbanner_dragon.png" alt="">
             </li>
-            <li class="fl" style="background-image: url(images/topbanner1@2x.jpg);">
-                <h3>做生意，用有赞</h3>
-                <p>帮助每一位重视产品和服务的商家成功</p>
-                <a href="">免费试用</a>
+            <li class="banner1 fl" style="background-image: url(images/topbanner1@2x.jpg);">
+                <div class="content">
+                    <p class="title">做生意，用有赞</p>
+                    <p class="desc">帮助每一位重视产品和服务的商家成功</p>
+                    <a class="more" href="">免费试用</a>
+                </div>
             </li>
         </ul>
         <div class="turn-left"><</div>
         <div class="turn-right">></div>
         <div class="banner-index">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+            <span class="index"></span>
+            <span class="index"></span>
+            <span class="index"></span>
+            <span class="index"></span>
         </div>
 
     </div>
@@ -82,8 +98,8 @@
         <!--有赞商城-->
         <div class="product-mall clearfix">
             <div class="content fl">
-                <h4 class="title">有赞微商城</h4>
-                <h5 class="desc">帮你轻松玩转社交电商</h5>
+                <h1 class="title">有赞微商城</h1>
+                <h3 class="desc">帮你轻松玩转社交电商</h3>
                 <div class="detail">
                     <p>提供多样店铺模板，快速搭建网上商城</p>
                     <p>从渠道打通、会员管理到精准客户营销，全方位覆盖经营场景</p>
@@ -100,11 +116,11 @@
         <div class="product-store clearfix">
             <div class="video fl">
                 <img class="pic" src="images/ls1@2x.jpg" alt="">
-                <div class="watch-btn">▶观看视频</div>
+                <div class="watch-btn"><span class="play">▶ </span>观看视频</div>
             </div>
             <div class="content fr">
-                <h4 class="title">有赞零售</h4>
-                <h5 class="desc">让门店经营更简单</h5>
+                <h1 class="title">有赞零售</h1>
+                <h3 class="desc">让门店经营更简单</h3>
                 <div class="detail">
                     <p>网店门店一键打通，降低运营成本</p>
                     <p>网店吸粉获客、会员分层营销、一机多种收款，告别经营低效和客户流失</p>
@@ -125,7 +141,7 @@
                 <a href="">
                     <img src="images/meiye.jpg" alt="">
                     <div class="detail">
-                        <h4>美业</h4>
+                        <h2 class="title">美业</h2>
                         <p class="desc">美业互联网经营完整解决方案，连接顾客，让美随时随地发生</p>
                         <div class="enter">></div>
                     </div>
@@ -135,7 +151,7 @@
                 <a href="">
                     <img src="images/cy.png" alt="">
                     <div class="detail">
-                        <h4>餐饮</h4>
+                        <h2 class="title">餐饮</h2>
                         <p class="desc">面向实体餐饮门店，简单高效的门店经营和在线营销工具</p>
                         <div class="enter">></div>
                     </div>
@@ -145,7 +161,7 @@
                 <a href="">
                     <img src="images/jiudian.png" alt="">
                     <div class="detail">
-                        <h4>酒店</h4>
+                        <h2 class="title">酒店</h2>
                         <p class="desc">面向酒店客栈行业，支持商家高效管理房态，全面提升买家订房体验</p>
                         <div class="enter">></div>
                     </div>
@@ -155,7 +171,7 @@
                 <a href="">
                     <img src="images/piaowu.jpg" alt="">
                     <div class="detail">
-                        <h4>票务</h4>
+                        <h2 class="title">票务</h2>
                         <p class="desc">在线售票，到场核销，提升售验票效率，触达用户，精准营销，助力营收增长</p>
                         <div class="enter">></div>
                     </div>
@@ -165,7 +181,7 @@
                 <a href="">
                     <img src="images/meiti.jpg" alt="">
                     <div class="detail">
-                        <h4>媒体</h4>
+                        <h2 class="title">媒体</h2>
                         <p class="desc">面向媒体行业提供粉丝互动、渠道选货、在线营销、仓储物流等的运营支持</p>
                         <div class="enter">></div>
                     </div>
@@ -175,7 +191,7 @@
                 <a href="">
                     <img src="images/fenxiao.jpg" alt="">
                     <div class="detail">
-                        <h4>分销</h4>
+                        <h2 class="title">分销</h2>
                         <p class="desc">快速建设分销渠道，让分销商帮你卖货，商家一键自动分账，轻松补充优质货源</p>
                         <div class="enter">></div>
                     </div>
@@ -185,7 +201,7 @@
     </div>
     <!--客户-->
     <div class="client-wrapper">
-        <h3 class="title">他们都在用有赞</h3>
+        <h1 class="title">他们都在用有赞</h1>
         <div class="client-list">
             <div>
                 <img src="images/case1@2x.jpg" alt="">
@@ -216,7 +232,7 @@
                 <div class="detail">
                     <img src="images/case_logo_4@2x.png" alt="" class="logo">
                     <p class="title">经营类目：蛋糕烘培</p>
-                    <p class="desc">“坚持新鲜现做，覆盖100多个城市。今年的‘狂欢节活动’，借助有赞的‘满就送多张优惠券’功能，单日销售破千万。”己找团队开发，结果一次促销，瞬间涌入几万笔订单一下就把系统冲垮了。后来“我们也试过自决定用有赞微商城，专业的事交给专业的人，做生意还得用有赞。”</p>
+                    <p class="desc">“坚持新鲜现做，覆盖100多个城市。今年的‘狂欢节活动’，借助有赞的‘满就送多张优惠券’功能，单日销售破千万。”</p>
                 </div>
             </div>
             <div>
@@ -236,11 +252,11 @@
                 </div>
             </div>
         </div>
-        <div class="more-btn"><a href="">更多案例</a></div>
+        <div class="btn-more"><a href="">更多案例</a></div>
     </div>
     <!--有赞担保-->
     <div class="support-wrapper">
-        <h3 class="title">有赞担保</h3>
+        <h1 class="title">有赞担保</h1>
         <ul class="support-list clearfix">
             <li class="fl">
                 <img src="images/danbao_1.png" alt="" class="icon">
@@ -262,13 +278,13 @@
                 <p class="desc">售后维权，协调解决</p>
             </li>
         </ul>
-        <div class="detail-btn"><a href="">了解详情</a></div>
+        <div class="btn-detail"><a href="">了解详情</a></div>
     </div>
     <!--其他相关信息-->
     <div class="about-wrapper">
         <!--服务-->
         <div class="about-service">
-            <h3 class="title">360°全方位一站式服务</h3>
+            <h1 class="title">360°全方位一站式服务</h1>
             <ul class="service-list clearfix">
                 <li class="fl">
                     <img src="images/service_1.png" alt="" class="icon">
@@ -294,26 +310,26 @@
         </div>
         <!--成就-->
         <div class="about-success">
-            <h3 class="title">5年技术积累成就行业领先</h3>
+            <h1 class="title">5年技术积累成就行业领先</h1>
             <ul class="success-list clearfix">
                 <li class="fl">
-                    <h1><span class="data">0</span>万</h1>
+                    <p class="name"><span class="data">0</span>万</p>
                     <p class="desc">商家信赖之选</p>
                 </li>
                 <li class="fl">
-                    <h1><span class="data">0</span>个</h1>
+                    <p class="name"><span class="data">0</span>个</p>
                     <p class="desc">覆盖行业和类目</p>
                 </li>
                 <li class="fl">
-                    <h1><span class="data">0</span>亿</h1>
+                    <p class="name"><span class="data">0</span>亿</p>
                     <p class="desc">件商品销售中</p>
                 </li>
                 <li class="fl">
-                    <h1><span class="data">0</span>亿</h1>
+                    <p class="name"><span class="data">0</span>亿</p>
                     <p class="desc">电商产品年交易额</p>
                 </li>
                 <li class="fl">
-                    <h1><span class="data">0</span>万/秒</h1>
+                    <p class="name"><span class="data">0</span>万/秒</p>
                     <p class="desc">订单处理速度</p>
                 </li>
 
@@ -321,7 +337,7 @@
             </ul>
         </div>
         <div class="about-partner">
-            <h3 class="title">合作伙伴</h3>
+            <h1 class="title">合作伙伴</h1>
             <div class="partner-list">
                 <div class="partner"><img src="images/cp1@2x.png" alt=""></div>
                 <div class="partner"><img src="images/cp2@2x.png" alt=""></div>
@@ -342,65 +358,66 @@
     </div>
     <!--注册-->
     <div class="register-wrapper">
-        <h4 class="title">现在注册，立享新人专属优惠礼包！</h4>
-        <div class="register-btn">立即注册</div>
+        <h1 class="title">现在注册，立享新人专属优惠礼包！</h1>
+        <div class="btn-register">立即注册</div>
     </div>
     <!--底部-->
     <div class="footer-wrapper">
-        <div class="footer-contact">
-            <h4 class="title">联系我们</h4>
-            <p class="tel">开店咨询：0571 - 8685 7988</p>
-            <p class="time">周一到周日 9:00 ~ 18:00</p>
-        </div>
-        <div class="footer-about">
-            <h4 class="title"></h4>
-            <ul class="about-list">
-                <li><a href="">中国有赞</a></li>
-                <li><a href="">公司文化</a></li>
-                <li><a href="">合作联系</a></li>
-                <li><a href="">加入我们</a></li>
-                <li><a href="">品牌物料</a></li>
-            </ul>
-            <img src="images/code.png" alt="" class="code">
-        </div>
-        <div class="footer-product">
-            <h4 class="title">产品与服务</h4>
-            <ul class="product-list clearfix">
-                <li class="fl"><a href="">微商城</a></li>
-                <li class="fl"><a href="">有赞服务</a></li>
-                <li class="fl"><a href="">微信小程序</a></li>
-                <li class="fl"><a href="">APP大师</a></li>
-                <li class="fl"><a href="">有赞餐饮</a></li>
-                <li class="fl"><a href="">有赞美业</a></li>
-                <li class="fl"><a href="">有赞收银</a></li>
-                <li class="fl"><a href="">有赞批发</a></li>
-                <li class="fl"><a href="">有赞公益</a></li>
-                <li class="fl"><a href="">有赞分销</a></li>
-                <li class="fl"><a href="">有赞精选</a></li>
-                <li class="fl"><a href="">消费保障</a></li>
-                <li class="fl"><a href="">系统状态</a></li>
-            </ul>
-        </div>
-        <div class="footer-news">
-            <h4 class="title">公司动态</h4>
-            <ul class="news-list">
-                <li><a href="">亿邦｜“金字火腿”入局小程序 有赞提供技术支持</a></li>
-                <li><a href="">中国经营网｜有赞连锁支持多门店库存调拨要货</a></li>
-                <li><a href="">中国经营网｜有赞正式推出电子发票服务 实现无纸化开票</a></li>
-                <li><a href="">亿邦｜肯德基万人拼团小程序现身 有赞技术支持</a></li>
-                <li><a href="">凤凰｜公益机构如何自我造血善淘网用有赞零售开公益门店</a></li>
-                <li><a href="">联商｜紧咬线下零售业 有赞零售发布生鲜果蔬条码秤</a></li>
-            </ul>
+        <div class="footer-list clearfix">
+            <div class="contact fl">
+                <h2 class="title">联系我们</h2>
+                <p class="tel">开店咨询：0571 - 8685 7988</p>
+                <p class="time">周一到周日 9:00 ~ 18:00</p>
+            </div>
+            <div class="about fl">
+                <h2 class="title">关于我们</h2>
+                <ul class="about-list">
+                    <li><a href="">中国有赞</a></li>
+                    <li><a href="">公司文化</a></li>
+                    <li><a href="">合作联系</a></li>
+                    <li><a href="">加入我们</a></li>
+                    <li><a href="">品牌物料</a></li>
+                </ul>
+                <img src="images/code.png" alt="" class="code">
+            </div>
+            <div class="product fl">
+                <h2 class="title">产品与服务</h2>
+                <ul class="product-list clearfix">
+                    <li class="fl"><a href="">微商城</a></li>
+                    <li class="fl"><a href="">有赞服务</a></li>
+                    <li class="fl"><a href="">微信小程序</a></li>
+                    <li class="fl"><a href="">APP大师</a></li>
+                    <li class="fl"><a href="">有赞餐饮</a></li>
+                    <li class="fl"><a href="">有赞美业</a></li>
+                    <li class="fl"><a href="">有赞收银</a></li>
+                    <li class="fl"><a href="">有赞批发</a></li>
+                    <li class="fl"><a href="">有赞公益</a></li>
+                    <li class="fl"><a href="">有赞分销</a></li>
+                    <li class="fl"><a href="">有赞精选</a></li>
+                    <li class="fl"><a href="">消费保障</a></li>
+                    <li class="fl"><a href="">系统状态</a></li>
+                </ul>
+            </div>
+            <div class="news fl">
+                <h2 class="title">公司动态</h2>
+                <ul class="news-list">
+                    <li><a href="">亿邦｜“金字火腿”入局小程序 有赞提供技术支持</a></li>
+                    <li><a href="">中国经营网｜有赞连锁支持多门店库存调拨要货</a></li>
+                    <li><a href="">中国经营网｜有赞正式推出电子发票服务 实现无纸化开票</a></li>
+                    <li><a href="">亿邦｜肯德基万人拼团小程序现身 有赞技术支持</a></li>
+                    <li><a href="">凤凰｜公益机构如何自我造血善淘网用有赞零售开公益门店</a></li>
+                    <li><a href="">联商｜紧咬线下零售业 有赞零售发布生鲜果蔬条码秤</a></li>
+                </ul>
+            </div>
         </div>
         <div class="footer-message">
-            <p>浙公网安备 33010602004354号 增值电信业务经营许可证：浙B2-20140331 - 浙ICP备13037466号 （浙）网械平台备字【2018】第00003号 工商营业执照和食品经营许可证</p>
-            <p>互联网药品信息服务资格证书编号：（浙）-经营性-2017-0033 知识产权 廉洁有赞</p>
-            <p class="history">© 2012-2018 Youzan.com</p>
+            <small><img src="images/Hakenkreuz.png" alt="">浙公网安备 33010602004354号 增值电信业务经营许可证：浙B2-20140331 - 浙ICP备13037466号 （浙）网械平台备字【2018】第00003号 工商营业执照和食品经营许可证</small>
+            <small>互联网药品信息服务资格证书编号：（浙）-经营性-2017-0033 知识产权 廉洁有赞</small>
+            <small class="history">© 2012-2018 Youzan.com</small>
         </div>
     </div>
     <!--button-->
     <div class="advisory-wrapper">开店咨询</div>
-
 </div>
 </body>
 </html>
